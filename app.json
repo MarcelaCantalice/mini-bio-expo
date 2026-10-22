@@ -1,5 +1,6 @@
 {
   "expo": {
+    "owner": "mateusjoses-team",
     "name": "mini-bio-expo",
     "slug": "mini-bio-expo",
     "version": "1.0.0",
@@ -37,6 +38,22 @@
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
+    },
+    "extra": {
+      "router": {
+        "asyncRoutes": {
+          "web": true
+        }
+      },
+      "eas": {
+        "projectId": "3ab1ae96-1318-4ed8-b7fa-3d785f052b45"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/3ab1ae96-1318-4ed8-b7fa-3d785f052b45"
     }
   }
 }
